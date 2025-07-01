@@ -30,3 +30,17 @@ This Laravel project implements a simple algorithm to calculate the winning perc
 ```bash
 git clone https://github.com/pilla20202020/gaming-backend.git
 
+
+## After this run this command
+composer install
+cp .env.example .env
+
+php artisan key:generate
+
+
+## setup the database after that run this php command 
+php artisan migrate
+php artisan db:seed
+
+##after this run the project with this command 
+php artisan serve
